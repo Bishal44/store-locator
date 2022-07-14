@@ -6,7 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Entity(name = "USER_TABLE")
+@Entity(name = "USER_ENTITY_TABLE")
 @Getter
 @Setter
 @NoArgsConstructor  //lombok advantage no need to create getter setter method
