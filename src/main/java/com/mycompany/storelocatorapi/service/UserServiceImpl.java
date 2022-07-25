@@ -13,6 +13,7 @@ public class UserServiceImpl implements UserService{
     private UserEntityRepository userEntityRepository; //injekt in memory with this var name of userserviceimple
     @Override
     public void login(UserModel userModel) {
+     UserEntity userEntity=userEntityRepository.findByEmailAndPassword(userModel.getEmail(),userModel.getPassword());
 
 
     }
